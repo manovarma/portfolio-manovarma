@@ -47,6 +47,7 @@ const Footer = () => {
                     <a 
                         href="https://github.com/manovarma"
                         target='_blank'
+                        rel = "noreferrer"
                         className='transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1'
                     >
                         <FaGithub className='text-xl' />
