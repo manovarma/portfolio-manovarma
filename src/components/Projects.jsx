@@ -93,12 +93,13 @@ export const project = [
     technologies: ["Python", "ML", "ScikitLearn", "Regression"],
   },
   {
-    title: "Profitability Prediction through ESG Metrics",
+    title: "Bank Customer Churn Prediction – CRISP-DM",
     description:
-      "Academic project for the Application of Data Science in Finance course. Built ML models and visualization pipelines to explore the relationship between ESG scores and firm profitability.",
-    git: "https://github.com/manovarma/Application-of-Data-Science-in-Finance.git",
-    technologies: ["Python", "FinanceAnalytics", "ML", "Pandas"],
-  },
+      "A churn prediction system built using CRISP-DM with three models: Bayesian Networks, Random Forest, and Logistic Regression. Applied encoding, SMOTE, discretization, and threshold tuning. Random Forest delivered the best overall accuracy and AUC, while Bayesian Networks achieved the highest recall for identifying at-risk customers.",
+    git: "https://github.com/manovarma/Application-of-Data-Science-in-Finance",
+    technologies: ["Python", "ML", "BayesianNetwork", "RandomForest", "LogisticRegression", "SMOTE"]
+  }
+  
   {
     title: "Effective Billboard Analysis – Geo Analytics",
     description:
