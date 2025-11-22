@@ -98,7 +98,7 @@ export const project = [
       "A churn prediction system built using CRISP-DM with three models: Bayesian Networks, Random Forest, and Logistic Regression. Applied encoding, SMOTE, discretization, and threshold tuning. Random Forest delivered the best overall accuracy and AUC, while Bayesian Networks achieved the highest recall for identifying at-risk customers.",
     git: "https://github.com/manovarma/Application-of-Data-Science-in-Finance",
     technologies: ["Python", "ML", "BayesianNetwork", "RandomForest", "LogisticRegression", "SMOTE"]
-  }
+  },
   
   {
     title: "Effective Billboard Analysis – Geo Analytics",
