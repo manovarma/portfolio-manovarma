@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaGithub, FaHackerrank } from 'react-icons/fa';
-import { AiFillMediumCircle, AiFillLinkedin } from 'react-icons/ai';
+import {  AiFillLinkedin } from 'react-icons/ai';
 import { FiMail } from 'react-icons/fi';
 
 const Footer = () => {
@@ -18,6 +18,8 @@ const Footer = () => {
                     {/* Email */}
                     <a 
                         href="mailto:manovarmaofficial@gmail.com"
+                        target = "_blank"
+                        rel="noreferrer"
                         className='transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1'
                     >
                         <FiMail className='text-xl' />
