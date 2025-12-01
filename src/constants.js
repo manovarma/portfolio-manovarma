@@ -4,26 +4,8 @@
 
 export const name = "Manovarma Krishnasamy";
 
-export const services = [
-  {
-    title: "Data Science Student",
-    icon: "https://csgeeek.github.io/web.png",
-  },
-  {
-    title: "Data Analyst",
-    icon: "https://csgeeek.github.io/web.png",
-  },
-  {
-    title: "GIS & Analytics Enthusiast",
-    icon: "https://csgeeek.github.io/web.png",
-  }
-];
-
-// =======================
-//       EXPERIENCE
-// =======================
-
 export const experiences = [
+  // 2024
   {
     company: "Prodigy InfoTech",
     role: "Data Science Intern",
@@ -48,42 +30,42 @@ export const experiences = [
     url: "https://afame.in"
   },
   {
-    company: "Svs Agri Foods Private Limited",
-    role: "Database Administrator Intern",
-    duration: "June 2022 - August 2022",
-    logo: "https://csgeeek.github.io/web.png",
-    points: [
-      "Worked with structured datasets to maintain and manage company databases.",
-      "Ensured data accuracy and supported internal data operations.",
-    ],
-    url: "https://www.svsagrifoods.com"
-  },
-  {
     company: "CGI",
     role: "DevOps Trainee",
-    duration: "2023 (Training Experience)",
+    duration: "Sep 2023 - Dec 2023 (Training Program)",
     logo: "https://csgeeek.github.io/web.png",
     points: [
-      "Gained hands-on experience in DevOps, automation, cloud deployment, and monitoring.",
-      "Strengthened understanding of scalable cloud-based data infrastructure.",
+      "Hands-on training in cloud deployment, automation, CI/CD, and monitoring.",
+      "Strengthened understanding of scalable cloud-based infrastructure.",
     ],
     url: "https://www.cgi.com"
-  }
+  },
+  // 2023
+  {
+    company: "Lakshmi Engineering Industries",
+    role: "Project Trainee – Cloud Based Software Sharing",
+    duration: "Dec 2022 - May 2023",
+    logo: "https://csgeeek.github.io/web.png",
+    points: [
+      "Worked on the project 'Cloud based software sharing with license validation'.",
+      "Designed and validated a secure access and license management system.",
+      "Gained practical exposure to real-world software development workflows.",
+    ],
+    url: "https://www.indiamart.com/lakshmiengineeringindustries/"
+  },
+  
+
+  // 2022
+  {
+    company: "SVS Foods ",
+    role: "Industrial Exposure Trainee",
+    duration: "Jul 2022 - Sep 2022",
+    logo: "https://csgeeek.github.io/web.png",
+    points: [
+      "Completed a two-month Production and System Oriented Programme. :contentReference[oaicite:0]{index=0}",
+      "Gained exposure to production processes and system workflows in food manufacturing.",
+      "Understood how data and systems support industrial operations.",
+    ],
+    url: "https://www.svsfoods.org"
+  },
 ];
-
-// =======================
-//       CONTACT
-// =======================
-
-export const contact = {
-  email: "manovarma2003@gmail.com",
-  linkedin: "https://www.linkedin.com/in/manovarma-krishnasamy-182023291",
-};
-
-// =======================
-//     EmailJS CONFIG
-// =======================
-
-export const EMAIL_JS_SERVICE_ID = process.env.REACT_APP_EMAIL_JS_SERVICE_ID;
-export const EMAIL_JS_TEMPLATE_ID = process.env.REACT_APP_EMAIL_JS_TEMPLATE_ID;
-export const EMAIL_JS_PUBLIC_KEY = process.env.REACT_APP_EMAIL_JS_PUBLIC_KEY;

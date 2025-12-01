@@ -56,7 +56,7 @@ const About = () => {
 
             <ButtonLink
               url='https://www.linkedin.com/in/manovarma-krishnasamy-182023291'
-              text='View Resume →'
+              text='View LinkedIn →'
               padding={`p-3`}
             />
           </div>
