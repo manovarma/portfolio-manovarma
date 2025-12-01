@@ -58,13 +58,14 @@ export const experiences = [
   // 2022
   {
     company: "SVS Foods ",
-    role: "Industrial Exposure Trainee",
+    role: "Industrial Exposure Trainee (Database Administrator - Accounts & Sales)",
     duration: "Jul 2022 - Sep 2022",
     logo: "https://csgeeek.github.io/web.png",
     points: [
-      "Completed a two-month Production and System Oriented Programme. :contentReference[oaicite:0]{index=0}",
-      "Gained exposure to production processes and system workflows in food manufacturing.",
-      "Understood how data and systems support industrial operations.",
+      "Managed and updated daily Accounts and Sales data in the internal database.",
+      "Ensured accuracy of customer, sales, and financial records through regular validation.",
+      "Generated sales summaries and supported internal reporting for management.",
+      "Worked closely with the Accounts team to streamline data entry and reduce record errors."
     ],
     url: "https://www.svsfoods.org"
   }
