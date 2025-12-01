@@ -67,5 +67,5 @@ export const experiences = [
       "Understood how data and systems support industrial operations.",
     ],
     url: "https://www.svsfoods.org"
-  },
+  }
 ];
