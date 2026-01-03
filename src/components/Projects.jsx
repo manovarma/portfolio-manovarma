@@ -58,6 +58,13 @@ const Projects = () => {
 
 export const project = [
   {
+    title: "Energy Demand and Renewables Dashboard(Live + Forecast)",
+    description:
+      "Engineered a Live data pipeline integrating API data from SMARD(energy) and Open-Meteo(Weather), Developed Interactive Dashboard Using Streamlit and Automated and Manual Data ingestion",
+    git: "https://github.com/manovarma/energy-dashboard-LIVE-.git",
+    technologies: ["Python", "PostgreSQL", "EnergyAnalytics", "Streamlit"],
+  },
+  {
     title: "Renewable Energy Comparison – Germany vs France",
     description:
       "A Power BI analytics project comparing renewable energy production, consumption, and trends between Germany and France. Includes KPI indicators, time-series visuals, and country-level energy insights.",
